@@ -1,3 +1,9 @@
+/*
+* En este programa se crea un thread para ejecutar el procedimiento miTurno
+* pero no se crea ninguno para ejeuctar el procedimiento tuTurno
+* 
+* El resultado es que únicamente se ejecuta el procedimiento miTurno 
+*/
 #include <pthread.h>
 #include <unistd.h>
 #include <stdio.h>
